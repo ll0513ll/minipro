@@ -5,16 +5,16 @@ public class Person {
 	private String name;
 	private String hp;
 	private String company;
-	
+
 	public Person(String name, String hp, String company) {
-		
+
 		this.name = name;
 		this.hp = hp;
 		this.company = company;
 	}
 
 	public Person() {
-	
+
 	}
 
 	public String getName() {
@@ -43,11 +43,7 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return name+","+hp+", "+company;
+		return name + "," + hp + ", " + company;
 	}
-	
-	
-	
-	
-	
+
 }
